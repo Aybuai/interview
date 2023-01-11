@@ -98,11 +98,11 @@
 
 ### 4. display 的 block、inline 和 inline-block 的区别
 
-（1）**block：**会独占一行，多个元素会另起一行，可以设置 width、height、margin 和 padding 属性；
+（1）**block：** 会独占一行，多个元素会另起一行，可以设置 width、height、margin 和 padding 属性；
 
-（2）**inline：**元素不会独占一行，设置 width、height 属性无效。但可以设置水平方向的 margin 和 padding 属性，不能设置垂直方向的 padding 和 margin；
+（2）**inline：** 元素不会独占一行，设置 width、height 属性无效。但可以设置水平方向的 margin 和 padding 属性，不能设置垂直方向的 padding 和 margin；
 
-（3）**inline-block：**将对象设置为 inline 对象，但对象的内容作为 block 对象呈现，之后的内联对象会被排列在同一行内。
+（3）**inline-block：** 将对象设置为 inline 对象，但对象的内容作为 block 对象呈现，之后的内联对象会被排列在同一行内。
 
 对于行内元素和块级元素，其特点如下：
 
@@ -179,7 +179,7 @@ a:hover {color: #FF00FF}
 p:first-child {color: red}
 ```
 
-**总结：**伪类是通过在元素选择器上加⼊伪类改变元素状态，⽽伪元素通过对元素的操作进⾏对元素的改变。
+**总结：** 伪类是通过在元素选择器上加⼊伪类改变元素状态，⽽伪元素通过对元素的操作进⾏对元素的改变。
 
 ### 10. 对 requestAnimationframe 的理解
 
@@ -191,7 +191,7 @@ MDN 对该方法的描述：
 
 **语法：** `window.requestAnimationFrame(callback);` 其中，callback 是**下一次重绘之前更新动画帧所调用的函数**(即上面所说的回调函数)。该回调函数会被传入 DOMHighResTimeStamp 参数，它表示 requestAnimationFrame() 开始去执行回调函数的时刻。该方法属于**宏任务**，所以会在执行完微任务之后再去执行。
 
-**取消动画：**使用 cancelAnimationFrame()来取消执行动画，该方法接收一个参数——requestAnimationFrame 默认返回的 id，只需要传入这个 id 就可以取消动画了。
+**取消动画：** 使用 cancelAnimationFrame()来取消执行动画，该方法接收一个参数——requestAnimationFrame 默认返回的 id，只需要传入这个 id 就可以取消动画了。
 
 **优势：**
 
