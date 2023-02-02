@@ -2157,7 +2157,7 @@ container.removeChild(targetNode)
 
 
 
-**将指定的两个 DOM 元素交换位置，**已知的 HTML 结构如下：
+**将指定的两个 DOM 元素交换位置，** 已知的 HTML 结构如下：
 
 ```
 <html>
